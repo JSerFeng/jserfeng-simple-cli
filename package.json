@@ -1,0 +1,20 @@
+{
+  "name": "jserfeng-simple-cli",
+  "version": "1.0.0",
+  "description": "a simple cli based on create-react-app",
+  "main": "main.js",
+  "bin": {
+    "jsf": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "cli"],
+  "author": "jserfeng",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  }
+}
